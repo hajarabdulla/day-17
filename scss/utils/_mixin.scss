@@ -1,0 +1,23 @@
+@mixin buttonDesign($bgColor: $backgroundColor, $borderColor, $textColor) {
+  background-color: $bgColor;
+  border: thin solid $borderColor;
+  color: $textColor;
+  font-size: 0.7rem;
+  padding: 1rem 2rem;
+
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+}
+
+@mixin flexBox($justifyContent: center, $gapSize: 40px) {
+  display: flex;
+  align-items: center;
+  justify-content: $justifyContent;
+  gap: $gapSize;
+}

@@ -1,0 +1,21 @@
+.danger-alert {
+  @extend %dangerAlert;
+}
+
+.success-alert {
+  @extend %successAlert;
+}
+
+p {
+  font-size: function.doubleSize(24px);
+}
+
+$sizes: 150px, 100px, 50px;
+
+@each $size in $sizes {
+  .item-#{$size} {
+    width: $size;
+    height: $size;
+    background-color: red;
+  }
+}

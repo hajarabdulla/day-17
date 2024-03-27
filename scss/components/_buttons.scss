@@ -1,0 +1,28 @@
+.btn-group {
+  //   @include flexBox(space-around);
+
+  background-color: $btnGroupColor;
+}
+
+.btn {
+  background-color: $backgroundColor;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.btn-1 {
+  @include buttonDesign(transparent, #fff, #fff);
+}
+
+.btn-2 {
+  @include buttonDesign(#ef6d58, #ef6d58, #fff);
+}
+
+.btn-3 {
+  @include buttonDesign(#fff, #fff, #000);
+}
+
+.btn-4 {
+  @include buttonDesign(violet, violet, #fff);
+}

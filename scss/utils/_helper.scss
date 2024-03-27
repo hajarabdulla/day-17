@@ -1,0 +1,13 @@
+%dangerAlert {
+  background-color: rgba(255, 0, 0, 0.208);
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+%successAlert {
+  background-color: rgba(0, 128, 0, 0.282);
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 20px;
+}

@@ -1,0 +1,12 @@
+.heading-group {
+  @include flexBox(space-between, 10px);
+
+  h1 {
+    color: white;
+    background-color: $primaryColor;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
